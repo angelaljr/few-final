@@ -595,29 +595,43 @@ time, mark, audio, video {
 
 
 
-		@media only screen and (max-width: 768px) {
+		@media only screen and (max-width: 375px) {
   			[class*="col-"] {width: 100%;}
   			nav{height: 813px;
   		            background-position: 880px 0px;}
 
+  		    #myphoto{width: 260px;
+  		             margin-left: 20px;
+  		             margin-top: 170px;}
+
+  		    .homepage{flex-direction: column;}
+
+  		    .homepage div:first-child {order: 2;}
+
+  		    #myname{display: none;}
+
+  		    .indicator{display: none;}
+
   			nav li{width: 90%;
   			       padding-left: 0;}
 
-  			nav a{property: initial; 
-  				color:#ffffff}
+  			nav ul{flex-direction: column;
+  			       text-align: right;
+  			       margin-right: 20px;}
 
-  			nav ul{margin-left: 0%}
+  			.portrait{display: none;}
 
-  			.portrait{width: 100%;
-  			          padding-bottom: 6px;}
+  			.aboutmetext{margin-left: 50px;
+  			  			 width: 200px;}
 
-  			.skill-box{margin-top: 400px;}
+  			.skill-box{margin-top: 400px;
+  			 		   padding-left: 0px;}
 
   			.portfoliotitle{padding-top: 0px;}
 
   			.port{display: block;}
 
-  			.portimg{width: 100%;}
+  			.portimg{width: 260px;}
 
   			.portlist{padding: 10px;}
 
@@ -625,7 +639,8 @@ time, mark, audio, video {
 
   			.hoverzoom{width: 80%;}
 
-  			.exptitle{margin-left: 30px;}
+  			.exptitle{margin-left: 30px;
+  			         width: 230px;}
 
   			.yearlist{display: none;}
 
@@ -636,10 +651,14 @@ time, mark, audio, video {
 
   			.svgcircle{display: none;}
 
-  			.expdetail{width: 300px;}
+  			.expdetail{width: 250px;}
 
-  			#comment{width: 300px;
+  			#comment{width: 250px;
   				margin-left: 32px;}
+
+  			.review{width: 200px;
+  			        margin-left: 0%;
+  			        padding: 0px}
 
   			.icon{width: 300px;
   			      margin-left: 32px;}
@@ -651,6 +670,27 @@ time, mark, audio, video {
   			          width: 250px;
   			          margin-bottom: 100px;}
 
+  			.contacttitle{margin-left: 10px;}
+
+  			#map{display: none;}
+
+  			.myinfo{flex-direction: column;}
+
+  			.info{padding-top: 5px;
+  			      margin-left: 20px;}
+
+  			.contactcontainer{padding-top: 0px;
+						      margin-left: 0px;
+						     width: 260px;}
+
+			.cardtext{margin-left: 20px;}
+
+			#description{margin-left: 20px;
+			             width: 250px;}
+
+			#submit{width: 200px;}
+
+			.lastswitch{margin-left: 50px;}
 
 		}
 
