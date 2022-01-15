@@ -489,13 +489,16 @@ time, mark, audio, video {
 						.myinfo{display: flex;}
 
 						.cardtext{text-align: left;
-										  margin-left: 180px;
+										  margin-left: 50px;
 										  font-family: Helvetica, sans-serif;
 										  font-weight: lighter;
 										  font-size: 20px;}
 
-						.contactcontainer{padding-top: 50px;
-						                  margin-left: 430px;}
+						.contactcontainer{padding: 50px;
+						                  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    									  border-radius: 3px;
+    									  width: 500px;
+    									  margin-left: 400px;}
 
 						.info{text-align: left;
 						      margin-left: 80px;
@@ -506,39 +509,70 @@ time, mark, audio, video {
 						      padding-bottom: 4%;
 						      padding-top: 225px;}
 
-						.typesection{display: flex;
-						             padding-top: 50px;}
+						.typesection{/*display: flex;*/
+						             padding-top: 10px;}
 
-						.typesection2{padding-top: 50px;}
+						.typesection2{padding-top: 20px;}
 
-					#Name{width: 200px;
-					       height: 25px;
-					       background-color: #6e5445;
-					       border: none;
+					#Name{width: 400px;
+					       height: 30px;
 					      padding-left: 5px;
-					      opacity: 70%;
-					      color: white;}
+					       margin-left: 50px;
+					       margin-top: 5px;
 
-					#email{width: 200px;
-					       height: 25px;
-					       background-color: #6e5445;
-					       opacity: 70%;
-					       color: white;
-					       border: none;}
+					   			border: 1px solid ;
+					       		border-color: #e1e2eb;
+						    	background-color: #fff;
+							    color: #102a43;
+							    caret-color: #6e5445;
+							    box-sizing: border-box;
+							    font-size: 14px;
+							    font-size: 1rem;
+							    line-height: 29px;
+							    line-height: 2rem;
+							    box-shadow: inset 0 2px 4px 0 rgba(206, 209, 224, 0.2);
+							    border-radius: 3px;
+							    line-height: 29px;
+							    line-height: 2rem;}
 
-					#submit{text-align: left;
+					#email{width: 400px;
+					       height: 30px;
+					       		border: 1px solid ;
+					       		border-color: #e1e2eb;
+						    	background-color: #fff;
+							    color: #102a43;
+							    caret-color: #6e5445;
+							    box-sizing: border-box;
+							    font-size: 14px;
+							    font-size: 1rem;
+							    line-height: 29px;
+							    line-height: 2rem;
+							    box-shadow: inset 0 2px 4px 0 rgba(206, 209, 224, 0.2);
+							    border-radius: 3px;
+							    line-height: 29px;
+							    line-height: 2rem;
+				
+					       margin-left: 50px;
+					       margin-top: 5px;}
+
+					#submit{text-align: center;
 					      	
 					      	font-family: Helvetica, sans-serif;
 					      	font-weight: lighter;
-					      	font-size: 20px;
-					      	color: #000000;
-					      	padding-top: 15px;
-					        margin-top:20px;}
+					      	width: 400px;
+					      border: 1px solid ;
+					       		border-color: #e1e2eb;
 
+					    			background: #6e5445;
+								    color: white;
+								    font-size: 1.2rem;
+								    border-radius: 5px;
+								    margin-top: 1.3em;}
+/*
 					#submit:hover{transition: all .20s;
-			    				    background-color: #6e5445;}
+			    				    background-color: #6e5445;}*/
 
-					#submit{text-decoration:none;
+					/*#submit{text-decoration:none;
 			        	  overflow: hidden;
 					      	background: linear-gradient(to right, #a6a6a6, #a6a6a6 50%, #f7f7f7 50%);
 					      	      background-clip: text;
@@ -546,7 +580,7 @@ time, mark, audio, video {
 					     	      -webkit-text-fill-color: transparent;
 					      	      background-size: 200% 100%;
 					      	      ackground-position: 100%;
-					      	      transition: background-position 275ms ease;}
+					      	      transition: background-position 275ms ease;}*/
 
 		#thank{
 			visibility: hidden;
@@ -556,21 +590,34 @@ time, mark, audio, video {
 			margin-top: 10px;
 		}
 
-		#description{margin-left: 240px;
-		             background-color: #6e5445;
+		#description{margin-left: 50px;
 		             height: 200px;
-		             width: 200px;
-		             opacity: 70%;
-		           color: white;
-		           border: none;}
+		             width: 400px;
+		            margin-top: 5px;
+
+		        				border: 1px solid ;
+					       		border-color: #e1e2eb;
+						    	background-color: #fff;
+							    color: #102a43;
+							    caret-color: #6e5445;
+							    box-sizing: border-box;
+							    font-size: 14px;
+							    font-size: 1rem;
+							    line-height: 29px;
+							    line-height: 2rem;
+							    box-shadow: inset 0 2px 4px 0 rgba(206, 209, 224, 0.2);
+							    border-radius: 3px;
+							    line-height: 29px;
+							    line-height: 2rem;}
 
 		#map{height: 500px;
 		     width: 35%;
 		     margin-left: 20px;
 		     margin-top: 50px;}
 
-		.outercontainer{display: flex;
-										margin-top: 130px;}
+		.outercontainer{/*display: flex;*/
+										margin-top: 35px;
+									    margin-bottom: 90px;}
 
 		#loader {border: 16px solid #f3f3f3; /* Light grey */
 						  border-top: 16px solid #3498db; /* Blue */
@@ -587,8 +634,8 @@ time, mark, audio, video {
 						  100% { transform: rotate(360deg); }
 						}
 
-		.lastswitch{display: flex;
-		            margin-left: 115px;
+		.lastswitch{display: flex;/*
+		            margin-left: 125px;*/
 		            margin-bottom: 25px;}
 
 
@@ -900,7 +947,7 @@ Reviews
 }
 
 
-
+/*
 .marker {
   background-image: url('https://res.cloudinary.com/dggnjafo3/image/upload/v1639511771/few%20midterm/PngItem_1171522_vudjjn.png');
   background-size: cover;
@@ -908,7 +955,7 @@ Reviews
   height: 30px;
   border-radius: 50%;
   cursor: pointer;
-}
+}*/
 
 
 
